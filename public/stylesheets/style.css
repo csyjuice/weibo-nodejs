@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+  padding: 50px;
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+#menu {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 18px;
+  color: #888;
+}
+#menu .name:after {
+  content: ' -';
+}
+#menu a {
+  text-decoration: none;
+  margin-left: 5px;
+  color: black;
+}

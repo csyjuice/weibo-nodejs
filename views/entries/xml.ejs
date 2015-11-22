@@ -1,0 +1,9 @@
+<entries>
+    <% entries.forEach(function(entry){ %>  //循环遍历每条消息
+    <entry>
+        <title><%= entry.title %></title>  //输出消息中的各个域
+        <body><%= entry.body %></body>
+        <username><%= entry.username %></username>
+    </entry>
+    <% }) %>
+</entries>
