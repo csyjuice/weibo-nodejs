@@ -38,6 +38,7 @@ app.use(messages);
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(app.router);
 app.use(routes.notfound);
+app.use(routes.error);
 
 app.get('/', page(Entry.count, 5), entries.list);
 app.get('/register', register.form);
