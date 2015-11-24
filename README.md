@@ -1,3 +1,2 @@
 # weibo-nodejs
-入门node.js的一个小例子
-
+微博 node.js版本
